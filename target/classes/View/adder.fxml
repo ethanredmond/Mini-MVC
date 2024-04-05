@@ -19,16 +19,16 @@
    <bottom>
       <HBox prefHeight="26.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <children>
-            <TextField fx:id="numberTextField" />
-            <Button mnemonicParsing="false" onAction="#onAddClick" text="Add" />
-            <Button mnemonicParsing="false" onAction="#onSubtractClick" text="Substract" />
+            <TextField id="amountText" fx:id="numberTextField" />
+            <Button id="addButton" mnemonicParsing="false" onAction="#onAddClick" text="Add" />
+            <Button id="subtractButton" mnemonicParsing="false" onAction="#onSubtractClick" text="Substract" />
          </children>
       </HBox>
    </bottom>
    <center>
       <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <Label fx:id="countLabel" text="0">
+            <Label id="amtLabel" fx:id="countLabel" text="0">
                <font>
                   <Font size="36.0" />
                </font>

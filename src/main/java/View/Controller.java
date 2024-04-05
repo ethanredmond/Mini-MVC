@@ -32,7 +32,7 @@ public class Controller {
 		
 		
 		amt = Double.parseDouble(val);
-		
+		numberTextField.textProperty().set("");
 		return amt;
 	}
 		
